@@ -42,4 +42,4 @@ Password: 123456
 ✔ Admin dashboard UI  
 
 ## 👨‍💻 Author
-Your Name
+Vanessa Reindorf 
