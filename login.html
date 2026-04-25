@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - ACITY Connect</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2>ACITY Connect</h2>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="register.html">Register</a>
+    </div>
+  </nav>
+
+  <!-- LOGIN SECTION -->
+  <section class="section">
+
+    <h2>Login to Your Account</h2>
+    <p>Welcome back! Please enter your details to continue.</p>
+
+    <div class="form-card">
+
+      <input type="email" id="loginEmail" placeholder="Enter your email" required />
+
+      <input type="password" id="loginPassword" placeholder="Enter your password" required />
+
+      <button onclick="loginUser()">Login</button>
+
+      <p class="small-text">
+        Don’t have an account? <a href="register.html">Create one</a>
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ACITY Connect</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

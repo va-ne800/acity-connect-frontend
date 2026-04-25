@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACITY Connect</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2>ACITY Connect</h2>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#marketplace">Marketplace</a>
+      <a href="#create">Post Item</a>
+      <a href="#login">Login</a>
+      <a href="#register">Register</a>
+      <a href="#admin">Admin</a>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Campus Marketplace & Skill Sharing</h1>
+      <p>
+        Buy and sell used items, offer services, and connect with students on campus in a simple way.
+      </p>
+      <a href="#marketplace" class="btn">Go to Marketplace</a>
+    </div>
+  </section>
+
+  <!-- MARKETPLACE -->
+  <section id="marketplace" class="section">
+    <h2>Marketplace</h2>
+
+    <div class="filters">
+      <input type="text" id="searchInput" placeholder="Search items or services..." />
+
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="Item">Items</option>
+        <option value="Skill">Skills</option>
+      </select>
+
+      <button>Search</button>
+    </div>
+
+    <div class="listing-grid" id="listingGrid">
+      <!-- Sample listing cards -->
+      <div class="card">
+        <h3>Used Laptop</h3>
+        <p>Good condition laptop for school work</p>
+        <small>Category: Item</small>
+      </div>
+
+      <div class="card">
+        <h3>Graphic Design</h3>
+        <p>I design logos and flyers for students</p>
+        <small>Category: Skill</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATE LISTING -->
+  <section id="create" class="section">
+    <h2>Create a Listing</h2>
+
+    <div class="form-card">
+      <input type="text" id="title" placeholder="Title (e.g. Laptop for sale)" />
+      
+      <textarea id="description" placeholder="Describe what you are offering"></textarea>
+
+      <select id="category">
+        <option value="">Select Category</option>
+        <option value="Item">Item</option>
+        <option value="Skill">Skill</option>
+      </select>
+
+      <select id="status">
+        <option value="Available">Available</option>
+        <option value="Sold">Sold</option>
+        <option value="Swapped">Swapped</option>
+      </select>
+
+      <button>Post Listing</button>
+    </div>
+  </section>
+
+  <!-- LOGIN -->
+  <section id="login" class="section">
+    <h2>Login</h2>
+
+    <div class="form-card">
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button>Login</button>
+    </div>
+  </section>
+
+  <!-- REGISTER -->
+  <section id="register" class="section">
+    <h2>Create Account</h2>
+
+    <div class="form-card">
+      <input type="text" placeholder="Full Name" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+
+      <input type="text" placeholder="Skills you have (e.g. design)" />
+      <input type="text" placeholder="Skills you want to learn" />
+
+      <button>Register</button>
+    </div>
+  </section>
+
+  <!-- ADMIN -->
+  <section id="admin" class="section">
+    <h2>Admin Panel</h2>
+
+    <div class="stats">
+      <div class="stat-card">
+        <h3> 14</h3>
+        <p>Users</p>
+      </div>
+
+      <div class="stat-card">
+        <h3> 12</h3>
+        <p>Listings</p>
+      </div>
+
+      <div class="stat-card">
+        <h3> 10</h3>
+        <p>Interactions</p>
+      </div>
+    </div>
+
+    <div class="admin-box">
+      <h3>Manage Listings</h3>
+      <p>Approve or remove posts that are not appropriate.</p>
+
+      <button>Approve</button>
+      <button class="danger">Delete</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ACITY Connect | Campus Marketplace System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

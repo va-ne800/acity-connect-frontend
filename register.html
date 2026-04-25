@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register - ACITY Connect</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2>ACITY Connect</h2>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="dashboard.html">Dashboard</a>
+    </div>
+  </nav>
+
+  <!-- REGISTER SECTION -->
+  <section class="section">
+
+    <h2>Create Your Account</h2>
+    <p>Join ACITY Connect to buy, sell, and share services on campus.</p>
+
+    <div class="form-card">
+
+      <input type="text" id="fullName" placeholder="Full name" required />
+
+      <input type="email" id="email" placeholder="Email address" required />
+
+      <input type="password" id="password" placeholder="Create password" required />
+
+      <input type="password" id="confirmPassword" placeholder="Confirm password" required />
+
+      <input type="text" id="skills" placeholder="Skills you have (e.g. design, coding)" />
+
+      <input type="text" id="interests" placeholder="Skills you want to learn" />
+
+      <button onclick="registerUser()">Register</button>
+
+      <p class="small-text">
+        Already have an account? <a href="login.html">Login</a>
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 ACITY Connect</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
