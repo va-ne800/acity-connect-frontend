@@ -12,7 +12,7 @@ It allows students to buy and sell items, offer services, and connect with other
 - Admin dashboard (UI)
 
 ## 🌐 Deployment Links
-Frontend (GitHub Pages):  
+Frontend https://va-ne800.github.io/acity-connect-frontend/  
 
 
 Backend (Render):  
