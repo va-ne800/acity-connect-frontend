@@ -16,7 +16,7 @@ Frontend https://va-ne800.github.io/acity-connect-frontend/
 
 
 Backend (Render):  
-(Add after deploying backend)
+https://acity-connect-backend-1o1q.onrender.com/
 
 ## 🔐 Login Details
 No real authentication yet (UI only)  
